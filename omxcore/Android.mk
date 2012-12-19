@@ -18,6 +18,8 @@ else ifeq ($(TARGET_BOARD_PLATFORM),msm7x27)
 MM_CORE_TARGET = 7627
 else ifeq ($(TARGET_BOARD_PLATFORM),msm7x30)
 MM_CORE_TARGET = 7630
+else ifeq ($(TARGET_BOARD_PLATFORM),qsd8k)
+MM_CORE_TARGET = 8250
 else ifeq ($(TARGET_BOARD_PLATFORM),msm8660)
 MM_CORE_TARGET = 8660
 #Comment out following line to disable drm.play component
